@@ -1,0 +1,88 @@
+# ------------------------------
+# Common Excludes (Time Machine style)
+# ------------------------------
+
+# Caches
+.cache/
+**/Cache/
+**/Caches/
+
+# Downloads (often large, temporary)
+Downloads/
+**/Downloads/
+**/Bookmark_Backups/
+
+# Trash / Recycle Bin
+.Trash/
+.Trash-*/
+**/.local/share/Trash/
+
+# System temp
+/tmp/
+var/tmp/
+
+# Build artifacts
+**/node_modules/
+**/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+log/
+logs/
+
+# Disk images, ISOs, installers
+*.iso
+*.dmg
+*.exe
+*.msi
+
+# OS metadata
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+.fseventsd/
+.Spotlight-V100/
+.TemporaryItems/
+.Trashes/
+
+# Virtual machines / containers (huge, skip if not needed)
+*.vdi
+*.vmdk
+*.qcow2
+.DockerDesktop/
+.docker/
+
+# Media editing caches (optional)
+**/Final Cut Pro Backups/
+**/Adobe Premiere Pro/Auto-Save/
+
+# ------------------------------
+# Cloud sync folders
+# ------------------------------
+
+# macOS Ventura+ new CloudStorage locations
+**/Library/CloudStorage/GoogleDrive*/
+**/Library/CloudStorage/OneDrive*/
+
+# (Optional) skip any hidden sync states
+**/.OneDrive*/
+**/.GoogleDrive*/
+
+# ------------------------------
+# Shortcuts / Aliases
+# ------------------------------
+
+# Windows shortcut files
+*.lnk
+*.url
+
+# macOS Finder aliases
+*.alias
+
+# If you have a generic "Shortcuts" folder you don’t want to back up
+Shortcuts/
+**/Shortcuts/
+
